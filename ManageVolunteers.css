@@ -1,0 +1,52 @@
+.volunteer-page {
+  min-height: 100vh;
+  padding: 50px;
+  background: linear-gradient(to right, #0f172a, #111827);
+  color: white;
+}
+
+.volunteer-page h1 {
+  color: #22c55e;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.volunteer-page p {
+  color: #cbd5e1;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.volunteer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.volunteer-card {
+  background: rgba(255,255,255,0.08);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.volunteer-card:hover {
+  transform: translateY(-8px);
+}
+
+.volunteer-card h2 {
+  color: #22c55e;
+  margin-bottom: 15px;
+}
+
+.volunteer-card button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
